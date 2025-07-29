@@ -28,7 +28,7 @@ function organizeOrder(inputOrder) {
   for (let i = 0; i < inputOrder.length; i++) {
     let currentFlavor = inputOrder[i];
     if (order[currentFlavor]) {
-      order[currentFlavor] += 1;
+      order[currentFlavor]++;
     } else {
       order[currentFlavor] = 1;
     }
